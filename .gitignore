@@ -1,0 +1,15 @@
+# Visual Studio related
+.vs/
+*.user
+*.suo
+
+# Build output
+x64/
+Debug/
+Release/
+
+# SQLite or local databases
+*.db
+
+# Others
+*.log
