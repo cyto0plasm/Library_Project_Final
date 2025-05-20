@@ -12,7 +12,8 @@ private:
 public:
     static SQLiteConnection^ GetConnection();
     static bool DBConnection::IsConnectionOpen(SQLiteConnection^ conn);
-    
+    static void DBConnection::ResetDatabase();
+    static SQLiteConnection^ DBConnection::GetOpenConnection();
 };
 
 
